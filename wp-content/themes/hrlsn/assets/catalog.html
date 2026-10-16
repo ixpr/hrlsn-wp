@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRLSN Catalog page</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <script src="js/slick.min.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+</head>
+<body class="catalog">
+    <header>
+        <div class="h-ticker">
+            <div class="h-ticker__wrapper">
+                <span class="h-ticker__block">
+                    <span class="h-ticker__block__item"><i>drop #3</i><i>simulated_beauty</i><i>is now live</i><i><a href="catalog.html">shop now</a></i></span>
+                    <span class="h-ticker__block__item"><i>free shipping within European Union on orders over €300</i></span>
+                    <span class="h-ticker__block__item"><i>drop #3</i><i>simulated_beauty</i><i>is now live</i><i><a href="catalog.html">shop now</a></i></span>
+                    <span class="h-ticker__block__item"><i>free shipping within European Union on orders over €300</i></span>
+                </span>
+                <span class="h-ticker__block">
+                    <span class="h-ticker__block__item"><i>drop #3</i><i>simulated_beauty</i><i>is now live</i><i><a href="catalog.html">shop now</a></i></span>
+                    <span class="h-ticker__block__item"><i>free shipping within European Union on orders over €300</i></span>
+                    <span class="h-ticker__block__item"><i>drop #3</i><i>simulated_beauty</i><i>is now live</i><i><a href="catalog.html">shop now</a></i></span>
+                    <span class="h-ticker__block__item"><i>free shipping within European Union on orders over €300</i></span>
+                </span>
+            </div>
+        </div>
+        <div class="h-main">
+            <div class="h-logo">
+                <a href="index.html"></a>
+            </div>
+            <div class="h-mainmenu">
+                <ul>
+                    <li class="active"><span>shop</span></li>
+                    <li><a href="brand.html">brand</a></li>
+                    <li><a href="care.html">Care</a></li>
+                </ul>
+            </div>
+            <div class="h-breadcrumbs-filters">
+                <div class="h-breadcrumbs h-breadcrumbs--catalog">
+                    <ul>
+                        <li><a href="index.html">hrlsn.co</a></li>
+                        <li><span>shop</span></li>
+                    </ul>
+                </div>
+                <div class="h-filters">
+                    <ul>
+                        <li class="h-filters__filters"><span><i>filters</i> & <i>sort</i></span></li>
+                    </ul>
+                    <div class="h-filters__block hidden">
+                        <div class="h-filters__block__params">
+                            <div class="h-filters__block__params__item">
+                                <p>categories</p>
+                                <form id="filters-form" method="post">
+                                    <label><input type="checkbox" name="p1" checked><i>x</i><span>everything</span></label>
+                                    <label><input type="checkbox" name="p2"><i>x</i><span>tops</span></label>
+                                    <label><input type="checkbox" name="p3"><i>x</i><span>outwear</span></label>
+                                    <label><input type="checkbox" name="p4"><i>x</i><span>sweaters & hoodies</span></label>
+                                    <label><input type="checkbox" name="p5"><i>x</i><span>bottoms</span></label>
+                                    <label><input type="checkbox" name="p6"><i>x</i><span>bags & accesoires</span></label>  
+                                </form>
+                            </div>
+                            <div class="h-filters__block__params__item">
+                                <p>sort</p>
+                                <form action="#">
+                                    <label><input type="radio" name="sort" value="1" checked><i>x</i><span>trending</span></label>
+                                    <label><input type="radio" name="sort" value="2"><i>x</i><span>latest arrivals</span></label>
+                                    <label><input type="radio" name="sort" value="3"><i>x</i><span>sale first</span></label>
+                                    <label><input type="radio" name="sort" value="4"><i>x</i><span>price high to low</span></label>
+                                    <label><input type="radio" name="sort" value="5"><i>x</i><span>price low to high</span></label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="h-filters__block__apply">
+                            <span>[ <i>save & close</i> ]</span>
+                        </div>
+                        <span class="h-filters__block__close"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-mobmenu-link">
+                <span>menu</span>
+            </div>
+            <div class="h-links">
+                <ul>
+                    <li class="h-links__cart"><a href="cart.html">cart (<i>2</i>)</a></li>
+                    <li class="h-links__search"><span>search</span></li>
+                    <li class="h-links__search-close"><span>[ <i class="link">close</i> ]</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="h-search h-search--desktop">
+            <p class="h-search__title">shop search</p>
+            <div class="h-search__form">
+                <form action="search.html">
+                    <div class="h-search__form__input">
+                        <input type="text" name="search" placeholder="Enter your request">
+                    </div>
+                    <div class="h-search__form__submit">
+                        <button type="submit">[ <i class="link">search</i> ]</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="h-mobmenu">
+            <div class="h-mobmenu__wrapper">
+                <div class="h-mobmenu__header">
+                    <a class="h-mobmenu__header__logo" href="/"></a>
+                    <span class="h-mobmenu__header__close">[close menu]</span>
+                </div>
+                <div class="h-mobmenu__main">
+                    <ul>
+                        <li><a href="catalog.html">Shop</a></li>
+                        <li><a href="brand.html">Brand</a></li>
+                        <li><a href="care.html">Customer care</a></li>
+                        <li><a href="cart.html">Cart [<i>2</i>]</a></li>
+                    </ul>
+                </div>
+                <div class="h-mobmenu__footer">
+                    <p class="cross-styled"><span class="link search-moblink">search</span></p>
+                    <p><a href="#">Shipping & returns</a></p>
+                    <p><a href="#">online chat (whatsapp)</a></p>
+                </div>
+                <div class="h-search h-search--mobile">
+                    <p class="h-search__title">shop search</p>
+                    <div class="h-search__form">
+                        <form action="search.html">
+                            <div class="h-search__form__input">
+                                <input type="text" name="search" placeholder="Enter your request">
+                            </div>
+                            <div class="h-search__form__submit">
+                                <button type="submit">[ <i class="link">search</i> ]</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="catalog-page">
+            <ul class="prod-list prod-list--catalog">
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_1.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_2.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_3.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                    <div class="prod-list__item__sizes">
+                        
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_3.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_2.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_4.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_1.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__label">
+                        <span>new</span>
+                    </div>
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_6.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_7.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_8.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__label">
+                        <span>20% off</span>
+                    </div>
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_9.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                            <span class="prod-list__item__form__price__old">17500 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_10.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_11.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_12.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_13.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_14.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__label">
+                        <span>20% off</span>
+                    </div>
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_15.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="prod-list__item">
+                    <div class="prod-list__item__image">
+                        <a href="product.html">
+                            <img src="img/catalog_16.jpg" alt="hrlsn" width="238" height="322">
+                            <img src="img/catalog_5.jpg" alt="hrlsn" width="238" height="322">
+                        </a>
+                    </div>
+                    <div class="prod-list__item__name">
+                        <a href="product.html">hwc_longsleeve</a>
+                    </div>
+                    <div class="prod-list__item__form">
+                        <ul class="prod-list__item__form__sizes">
+                            <li><span>s</span></li>
+                            <li><span>m</span></li>
+                            <li><span>l</span></li>
+                            <li><span>xl</span></li>
+                        </ul>
+                        <div class="prod-list__item__form__price">
+                            <span>6800 RUB</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="f-wrapper">
+                <div class="f-copyright">
+                    <p>© harlson, 2022–2024</p>
+                    <p>all rights reserved</p>
+                </div>
+                <div class="f-menu">
+                    <ul>
+                        <li><a href="catalog.html">shop</a></li>
+                        <li><a href="brand.html">brand</a></li>
+                        <li><a href="care.html">customer care</a></li>
+                        <li><a href="terms.html">terms & conditions</a></li>
+                    </ul>
+                </div>
+                <div class="f-social">
+                    <ul class="f-social__links">
+                        <li class="f-social__links__icon f-social__links__icon--instagram"><a href="#"></a></li>
+                        <li class="f-social__links__icon f-social__links__icon--youtube"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f-logo">
+                <a href="index.html"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

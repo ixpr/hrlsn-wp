@@ -1,0 +1,750 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hrlsn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-27 14:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Domain: hrlsn"
+
+#: inc/breadcrumbs.php:17
+msgid "404"
+msgstr ""
+
+#: inc/popups.php:61
+msgid ""
+"A pre-order function is available for this product, which means that the "
+"product is out of stock, but we are ready to make it especially for you and "
+"ship it within 30 days from the date of order."
+msgstr ""
+
+#: inc/popups.php:4
+msgid "Accept & close"
+msgstr ""
+
+#: functions.php:57
+msgid "Add banner"
+msgstr ""
+
+#: functions.php:58
+msgid "Add new banner"
+msgstr ""
+
+#: functions.php:41
+msgid "Additonal"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:196
+msgid "Address is not filled"
+msgstr ""
+
+#: functions.php:56
+msgid "All banners"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "Apartment, suite, unit, etc."
+msgstr ""
+
+#: woocommerce/content-single-product.php:111
+#: woocommerce/checkout/thankyou.php:39 woocommerce/cart/cart-empty.php:22
+#: woocommerce/cart/cart.php:19
+msgid "Back to catalog"
+msgstr ""
+
+#: functions.php:54
+msgid "Banner"
+msgstr ""
+
+#: functions.php:51 functions.php:53 functions.php:55
+msgid "Banners"
+msgstr ""
+
+#: functions.php:301
+msgid "Banners on mainpage"
+msgstr ""
+
+#: functions.php:934 woocommerce/loop/sale-flash.php:64
+msgid "Bestseller"
+msgstr ""
+
+#. Name of the template
+#: brand.php:1
+msgid "Brand Template"
+msgstr ""
+
+#: header.php:46 header.php:82
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:29
+msgid "Cart_is_empty"
+msgstr ""
+
+#: inc/filters.php:4
+msgid "Categories"
+msgstr ""
+
+#: inc/popups.php:74
+msgid "Check cart"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:15
+msgid "Check out"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:360
+msgid "Choose payment method"
+msgstr ""
+
+#: header.php:48 inc/popups.php:62 woocommerce/content-single-product.php:78
+msgid "Close"
+msgstr ""
+
+#: header.php:74
+msgid "Close menu"
+msgstr ""
+
+#: template-parts/content-page.php:28 template-parts/content-page.php:36
+msgid "Collaborations, publications, shootings and customer support"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:38
+msgid "Comment"
+msgstr ""
+
+#: woocommerce/content-single-product.php:57
+msgid "Comp"
+msgstr ""
+
+#: functions.php:898
+msgid "Composition"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:363
+msgid "Confirm order"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:277
+msgid "Confirmation"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:316
+msgid "Confirmation and payment"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:167
+msgid "Contact data"
+msgstr ""
+
+#: functions.php:225
+msgid "Contacts"
+msgstr ""
+
+#: functions.php:463
+msgid "Cookies text"
+msgstr ""
+
+#: 404.php:21 brand.php:30 woocommerce/content-single-product.php:108
+msgid "Customer support"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:286
+#: woocommerce/checkout/form-checkout.php:325
+msgid "Delivery address"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:122
+msgid "Delivery by"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:90
+msgid "Delivery city"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:101
+msgid "Delivery city is not selected."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:167
+msgid "Delivery details"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:114
+msgid "Delivery method"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:146
+msgid "Delivery method is not selected"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:157
+msgid ""
+"Delivery takes 15-20 business days on average but may take longer due to "
+"unforeseeable delays on the courier's end (weather, cargo loads, traffic, "
+"etc)."
+msgstr ""
+
+#: woocommerce/cart/cart.php:191
+msgid "Delivery will be counted on the next step"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:298
+#: woocommerce/checkout/form-checkout.php:337
+msgid "Do you have a coupon?"
+msgstr ""
+
+#: woocommerce/content-single-product.php:63
+msgid "Drop"
+msgstr ""
+
+#: inc/filters.php:24
+msgid "Drops"
+msgstr ""
+
+#: functions.php:423
+msgid "Drops in filter"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:155
+msgid ""
+"Duties and taxes applied in the country of destination are included in the "
+"price only for EU countries."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:23
+#: woocommerce/checkout/form-checkout.php:282
+#: woocommerce/checkout/form-checkout.php:321
+msgid "E-mail"
+msgstr ""
+
+#: functions.php:59
+msgid "Edit"
+msgstr ""
+
+#: functions.php:60
+msgid "Edit banner"
+msgstr ""
+
+#: header.php:50
+msgid "Edit order"
+msgstr ""
+
+#: woocommerce/archive-product.php:24
+msgid "Edit request"
+msgstr ""
+
+#: functions.php:231
+msgid "Email"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "Email is not filled"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:92
+msgid "Enter city"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:194
+msgid "Enter delivery address"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:27
+msgid "Enter postal code"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:158 woocommerce/cart/cart.php:209
+msgid "Enter your code"
+msgstr ""
+
+#: header.php:61 header.php:99
+msgid "Enter your request"
+msgstr ""
+
+#: inc/filters.php:5
+msgid "Everything"
+msgstr ""
+
+#: functions.php:922 woocommerce/loop/sale-flash.php:56
+msgid "Exclusive"
+msgstr ""
+
+#: header.php:32
+msgid "Filters & sort"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:24
+msgid "First name"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:43
+msgid "First name is not filled"
+msgstr ""
+
+#: functions.php:42
+msgid "Footer"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:23 woocommerce/cart/cart.php:20
+msgid "Free shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:34
+msgid "Go shopping"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:155 woocommerce/cart/cart.php:206
+msgid "Have a discount coupon?"
+msgstr ""
+
+#: functions.php:307
+msgid "Heading Line 1"
+msgstr ""
+
+#: functions.php:319
+msgid "Heading Line 2"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:31
+msgid "House No."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "House No. is not filled"
+msgstr ""
+
+#. Name of the theme
+msgid "Hrlsn"
+msgstr ""
+
+#: functions.php:622
+msgid "HRLSN Options"
+msgstr ""
+
+#. Description of the theme
+msgid "HRLSN theme"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://in-xeper.ru/"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:108
+msgid ""
+"If you have not found the possibility of shipping to your region, try "
+"placing an order on the international website {hrlsn.co} or [contact us]"
+msgstr ""
+
+#. Author of the theme
+msgid "In Xeper"
+msgstr ""
+
+#: inc/breadcrumbs.php:7
+msgid "Index"
+msgstr ""
+
+#: functions.php:275
+msgid "Instagram"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:25
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:44
+msgid "Last name is not filled"
+msgstr ""
+
+#: functions.php:746
+msgid "Latest arrivals"
+msgstr ""
+
+#: functions.php:99
+msgid "Link to video file"
+msgstr ""
+
+#: functions.php:499
+msgid "Location countries - leading to the 2ND website (comma sep.)"
+msgstr ""
+
+#: functions.php:487
+msgid "Location countries - leading to THIS website (comma sep.)"
+msgstr ""
+
+#. Name of the template
+#: mainpage.php:1
+msgid "Mainpage Template"
+msgstr ""
+
+#: header.php:42
+msgid "Menu"
+msgstr ""
+
+#: functions.php:40
+msgid "Mobile"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "Mobile phone"
+msgstr ""
+
+#: functions.php:904
+msgid "Model"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:280
+#: woocommerce/checkout/form-checkout.php:319
+msgid "Name"
+msgstr ""
+
+#: functions.php:910 woocommerce/loop/sale-flash.php:40
+msgid "New"
+msgstr ""
+
+#: functions.php:61
+msgid "New banner"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:34
+msgid "Next"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:204
+msgid "not required"
+msgstr ""
+
+#: functions.php:888
+msgid "Off"
+msgstr ""
+
+#: functions.php:679
+msgid "Online chat (whatsapp)"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:288
+#: woocommerce/checkout/form-checkout.php:327
+msgid "Order cost"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:361
+msgid "Order overview"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:58
+#: woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php:44
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:362
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:305
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid "Payment_was_not_successful"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:23 woocommerce/checkout/thankyou.php:31
+msgid "Payment_was_successful"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:284
+#: woocommerce/checkout/form-checkout.php:323
+msgid "Phone"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:46
+msgid "Phone is not filled"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:102
+msgid "Please check the address or [email us]"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:160
+msgid "Point of issue is not selected"
+msgstr ""
+
+#: functions.php:457
+msgid "Popups"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:104
+msgid "Postal code length is less that 5 digits"
+msgstr ""
+
+#: functions.php:1118
+msgid "Pre-Order"
+msgstr ""
+
+#: inc/popups.php:60
+#: woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php:45
+msgid "Pre-order"
+msgstr ""
+
+#: functions.php:928 woocommerce/loop/sale-flash.php:24
+msgid "Preorder"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:33
+msgid "Prev"
+msgstr ""
+
+#: functions.php:748
+msgid "Price high to low"
+msgstr ""
+
+#: functions.php:749
+msgid "Price low to high"
+msgstr ""
+
+#: functions.php:39
+msgid "Primary"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:160
+#: woocommerce/checkout/review-order.php:167
+#: woocommerce/checkout/review-order.php:167
+#: woocommerce/checkout/form-checkout.php:357 woocommerce/cart/cart.php:211
+#: woocommerce/cart/cart.php:215 woocommerce/cart/cart.php:215
+msgid "Proceed"
+msgstr ""
+
+#: inc/popups.php:53
+msgid "Proceeding here you agree to the use a personal data"
+msgstr ""
+
+#: inc/random.php:30 template-parts/content-page.php:68
+msgid "Random items"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:85 woocommerce/cart/cart.php:165
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:299
+#: woocommerce/checkout/form-checkout.php:338
+msgid "Remove coupon"
+msgstr ""
+
+#: functions.php:255
+msgid "Requisites"
+msgstr ""
+
+#: functions.php:916 woocommerce/loop/sale-flash.php:48
+msgid "Restock"
+msgstr ""
+
+#: functions.php:747
+msgid "Sale first"
+msgstr ""
+
+#: inc/filters.php:40
+msgid "Save & close"
+msgstr ""
+
+#: functions.php:667
+msgid "Save Settings"
+msgstr ""
+
+#: header.php:47 header.php:64 header.php:86 header.php:102
+msgid "Search"
+msgstr ""
+
+#: woocommerce/archive-product.php:23
+msgid "Search results for:"
+msgstr ""
+
+#: functions.php:531
+msgid "Second website"
+msgstr ""
+
+#: functions.php:475
+msgid "Select location text"
+msgstr ""
+
+#: functions.php:651
+msgid "Settings Saved"
+msgstr ""
+
+#: functions.php:417 inc/breadcrumbs.php:10 inc/breadcrumbs.php:13
+msgid "Shop"
+msgstr ""
+
+#: inc/random.php:55
+msgid "Shop all"
+msgstr ""
+
+#: header.php:57 header.php:95
+msgid "Shop search"
+msgstr ""
+
+#: woocommerce/single-product/related.php:17
+msgid "Similar items"
+msgstr ""
+
+#: functions.php:945 woocommerce/content-single-product.php:73
+msgid "Size chart"
+msgstr ""
+
+#: functions.php:269
+msgid "Social"
+msgstr ""
+
+#: inc/filters.php:19
+msgid "Sort"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:352
+msgid "Step back"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:30
+msgid "Street"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "Street and house number"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:47
+msgid "Street is not filled"
+msgstr ""
+
+#: functions.php:164 inc/popups.php:42
+msgid "Subscription"
+msgstr ""
+
+#: functions.php:166
+msgid "Subscription Area"
+msgstr ""
+
+#: functions.php:511
+msgid "Subscription text"
+msgstr ""
+
+#: functions.php:525
+msgid "System"
+msgstr ""
+
+#: functions.php:331
+msgid "Text Line 1 Item 1"
+msgstr ""
+
+#: functions.php:343
+msgid "Text Line 1 Item 2"
+msgstr ""
+
+#: functions.php:355
+msgid "Text Line 1 Item 3"
+msgstr ""
+
+#: functions.php:367
+msgid "Text Line 1 Item 4"
+msgstr ""
+
+#: functions.php:379
+msgid "Text Line 2 Item 1"
+msgstr ""
+
+#: functions.php:391
+msgid "Text Line 2 Item 2"
+msgstr ""
+
+#: functions.php:403
+msgid "Text Line 2 Item 2 Link"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24 woocommerce/checkout/thankyou.php:32
+msgid "Thank you for your order!"
+msgstr ""
+
+#: inc/popups.php:69
+msgid "Thanks! Item added to cart."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:45
+#: woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php:35
+msgid "The item is out of stock but you can [pre-order] it"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:46
+msgid "The phone must contain at least 9 digits"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:123
+msgid ""
+"The shipping will be recalculated once you've entered your city and postal "
+"code"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:151
+msgid ""
+"This option is available only on weekdays from 11:00 to 18:00 by appointment."
+" The order can be picked up after receiving a letter confirming it has been "
+"processed and packed. After receiving this letter please let us know about "
+"the time of your visit via email or WhatsApp."
+msgstr ""
+
+#: functions.php:70 functions.php:72 functions.php:73 functions.php:74
+msgid "Ticker"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:182
+msgid "Total amount"
+msgstr ""
+
+#: functions.php:745
+msgid "Trending"
+msgstr ""
+
+#: functions.php:92
+msgid "Video"
+msgstr ""
+
+#: functions.php:243
+msgid "Whatsapp"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "Wrong email format"
+msgstr ""
+
+#: inc/popups.php:70
+msgid "You can finish the order or continue shopping"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:25 woocommerce/checkout/thankyou.php:33
+msgid ""
+"You will receive a confirmation email with a tracking number when we process "
+"your order"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:150
+#: woocommerce/checkout/form-checkout.php:153
+msgid ""
+"You will receive an SMS from Boxberry service with the delivery interval, "
+"then a courier will call you an hour in advance."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:152
+msgid "You will receive an SMS when your order is ready for pickup."
+msgstr ""
+
+#: functions.php:287
+msgid "Youtube"
+msgstr ""
